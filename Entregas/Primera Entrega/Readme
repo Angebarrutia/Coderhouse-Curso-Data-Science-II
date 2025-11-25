@@ -2,9 +2,9 @@
 
 ## Análisis de Infraestructura de Internet en Sudamérica para Expansión Estratégica de Servicios
 
-**Autora:** Angela Barrutia  
-**Curso:** Data Science II – Coderhouse  
-**Fecha:** 25/11/2025 
+Autora: Angela Barrutia  
+Curso: Data Science II – Coderhouse  
+Fecha: 25/11/2025 
 
 
 ## Descripción del Proyecto
@@ -17,25 +17,25 @@ Se combinan análisis descriptivo de datos (EDA) y técnicas de Machine Learning
 
 ## Datos Utilizados
 
-- **Fuente:** Cloudflare Radar API
-- **Métricas Analizadas:**
+- Fuente Cloudflare Radar API
+- Métricas Analizadas:
   - Velocidad de descarga (Mbps)
   - Velocidad de subida (Mbps)
   - Latencia (ms)
   - Jitter (ms)
   - Concentración de ASNs (Autonomous System Numbers)
-- **Cobertura:** Países de Sudamérica
-- **Formato de descarga:** JSON (archivos generados por la API)
+- Cobertura: Países de Sudamérica
+- Formato de descarga: JSON (archivos generados por la API)
 
 
 ## Estructura del Notebook
 
-1. **Abstracto y motivación:** Contexto, conceptos clave y definiciones.
-2. **Hipótesis y preguntas:** Preguntas de investigación y supuestos de negocio.
-3. **Carga de datos desde API:** Descarga y almacenamiento de datos en archivos JSON.
-4. **Análisis exploratorio de datos (EDA):** Estadísticas descriptivas, gráficos multivariados y análisis de ASNs.
-5. **Machine Learning:** Clustering KMeans para agrupar países según métricas de red y concentración de proveedores.
-6. **Evaluación del modelo:** Silhouette Score, Inertia y visualización de clusters.
-7. **Ranking de prioridad de expansión:** Score combinado de métricas para priorizar países.
-8. **Insights y conclusiones:** Hallazgos clave y recomendaciones estratégicas.
+1. Abstracto y motivación:** Contexto, conceptos clave y definiciones.
+2. Hipótesis y preguntas:** Preguntas de investigación y supuestos de negocio.
+3. Carga de datos desde API:** Descarga y almacenamiento de datos en archivos JSON.
+4. Análisis exploratorio de datos (EDA):** Estadísticas descriptivas, gráficos multivariados y análisis de ASNs.
+5. Machine Learning:** Clustering KMeans para agrupar países según métricas de red y concentración de proveedores.
+6. Evaluación del modelo:** Silhouette Score, Inertia y visualización de clusters.
+7. Ranking de prioridad de expansión:** Score combinado de métricas para priorizar países.
+8. Insights y conclusiones:** Hallazgos clave y recomendaciones estratégicas.
 
